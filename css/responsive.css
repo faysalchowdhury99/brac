@@ -1,0 +1,126 @@
+
+@media screen and (max-width:1199px){
+    .active-page .nav-link::after{
+        width: 0;
+    }
+    .navbar-btn a:first-child{
+        width: 15rem;
+        margin: auto;
+        margin-top: 1rem !important;
+    }
+    .navbar-btn a:last-child{
+        width: 20rem;
+        margin: auto;
+        margin-top: 1.5rem !important;
+    }
+    .navbar-btn .btn-1,.navbar-btn .btn-2{
+        color: #ffffff;
+        font-size: 1.6rem;
+        background: #00D1D5;
+        border: 1.5px solid #00D1D5;
+        border-radius: 2.8rem;
+        -webkit-border-radius: 2.8rem;
+        -moz-border-radius: 2.8rem;
+        -ms-border-radius: 2.8rem;
+        -o-border-radius: 2.8rem;
+        padding: .7rem 2.5rem;
+        transition: all .2s ease-in-out;
+        -webkit-transition: all .2s ease-in-out;
+        -moz-transition: all .2s ease-in-out;
+        -ms-transition: all .2s ease-in-out;
+        -o-transition: all .2s ease-in-out;
+        font-family: mont-regular;
+    }
+    .navbar-brand img{
+        margin-right: 0 !important;
+    }
+}
+@media screen and (max-width:991px){
+    .heading{
+        font-size: 3.5rem;
+    }
+}
+@media screen and (max-width:767px){
+    #platform-section{
+        padding: 2rem 0 0 0;
+    }
+    #mask-group-2{
+        padding: 20rem 0 !important;
+    }
+    #mask-group-4{
+        padding: 2rem 0;
+    }
+    .accordion p{
+        width: 80% !important;
+    }
+}
+@media screen and (max-width:575px){
+    .footer-sub-title{
+        margin: auto;
+    }
+    .heading{
+        font-size: 3rem;
+    }
+    .accordion p{
+        width: 90% !important;
+    }
+    .footer-part-2{
+        padding: 6rem 0 0rem 0;
+    }
+
+}
+@media screen and (min-width:991px){
+    #mask-group-5{
+        background-image: none;
+    }
+}
+@media screen and (min-width:1440px){
+    .header-content{
+        padding-top: 20rem !important;
+    }
+}
+@media screen and (min-width:1600px){
+    #header-section{
+        padding-bottom: 28rem !important;
+    }
+    #mask-group-2{
+        padding: 25rem 0!important;
+    }
+    footer{
+        padding-top: 26rem;
+    }
+    .footer-part-2{
+        padding: 8rem 0 6rem 0;
+    }
+}
+@media screen and (min-width:1680px){
+    #header-section{
+        padding-bottom: 35rem !important;
+    }
+    #mask-group-2{
+        padding: 30rem 0!important;
+    }
+    .mask-group-5-heading{
+        padding-top: 10rem !important;
+    }
+    footer{
+        padding-top: 30rem;
+    }
+}
+@media screen and (min-width:1920px){
+    .header-content{
+        padding-top: 25rem !important;
+    }
+    #header-section{
+        padding-bottom: 55rem !important;
+    }
+    #mask-group-2{
+        padding: 40rem 0!important;
+    }
+    footer{
+        padding-top: 30rem;
+    }
+    .footer-part-1{
+        padding: 8rem 0 6rem 0;
+    }
+}
